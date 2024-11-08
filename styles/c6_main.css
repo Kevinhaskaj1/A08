@@ -9,7 +9,7 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -47,16 +47,22 @@ header img {
 }
 /* the styles for the main content */
 main {
-	clear: left;
+	padding: 0px 0;
+	clear: both;
 }
-main {
-	padding: 0 30px;
+.guest-speaker {
+	color: #931420;
+	font-size: 130%;
+}
+
+.fossil{
+	font-size: 50%;
 }
 main h1 {
-	font-size: 150%;
+	font-size: 130%;
 	padding: .3em 0;
-    border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
+	color: #000000;
+	margin-top: 0;
 }
 main h2 {
 	color: #800000;
@@ -100,6 +106,12 @@ article h3 {
 
 /* the styles for the aside */
 
+aside {
+	width: 215px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
@@ -111,9 +123,36 @@ aside img {
 /* the styles for the footer */
 footer {
 	background-color: #931420;
+	clear: both;
 }
 footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
+
+section {
+	width: 525px;
+	float: right;
+	padding: 0 20px 20px 20px;
+
+}
+
+aside {
+	width: 215px;
+	float: left;
+	padding: 0 0 20px 20px;
+}
+
+aside h2, section h2 {
+	color: #8B0000;
+	margin-top: 0;
+}
+
+
+
+
+section img {
+	float: right;
+	margin-left: 10px;
 }

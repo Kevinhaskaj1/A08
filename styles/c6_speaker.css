@@ -49,15 +49,18 @@ header img {
 section {
 	width: 525px;
 	float: right;
-	padding: 0 20px 20px 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+
 }
 section h1 {
 	font-size: 150%;
-	padding: .5em 0 .25em 0;
+	padding: .5em 0 0 0;
 	margin: 0;
+	color: #931420;
 }
 section h2 {
-	color: #800000;
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
@@ -78,11 +81,10 @@ section li {
 /* the styles for the article */
 article {
 	padding: .5em 0;
-	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000;
 }
 article h2 {
 	padding-top: 0;
+	font-size: 120%;
 }
 article h3 {
 	font-size: 105%;
@@ -97,8 +99,8 @@ article img {
 /* the styles for the aside */
 aside {
 	width: 215px;
-	float: right;
-	padding: 0 0 20px 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
 }
 aside h2 {
 	color: #800000;
